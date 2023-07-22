@@ -1,0 +1,27 @@
+{
+  "name": "swift-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "npx ts-node example/server",
+    "start-client": "npx ts-node example/client",
+    "build": "npx tsup"
+  },
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.31.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsup": "^7.1.0"
+  }
+}

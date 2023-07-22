@@ -1,0 +1,5 @@
+{
+    "format": [ "cjs", "esm" ],
+    "entry": [ "src" ],
+    "dts": true
+}
